@@ -1,0 +1,94 @@
+{
+  "id": "chase-travel-rewards",
+  "title": "Chase Travel Rewards UX Redesign",
+  "category": "UX Strategy",
+  "date": "2024",
+  "description": "App store reviews showed the travel portal was the top complaint. AI-assisted analysis surfaced specific friction points. The work translated user pain into a prioritized roadmap tied to revenue impact.",
+  "image": {
+    "src": "https://framerusercontent.com/images/GfGkADagM4KEibNcIiRUWlfrR0.jpg",
+    "alt": "Chase Travel Portal Preview"
+  },
+  "header": {
+    "duration": "3 months",
+    "platform": "Mobile App (iOS + Android)",
+    "headline": "The portal was not a design problem. It was a trust problem.",
+    "subheadline": "Users abandoned bookings because they could not verify value or find what they needed. The work identified which friction points actually drove drop-off."
+  },
+  "metrics": [
+    {
+      "number": 21,
+      "label": "Negative Reviews - Travel Usability (%)"
+    },
+    {
+      "number": 5,
+      "label": "Projected Booking Lift (%)"
+    },
+    {
+      "number": 10,
+      "label": "Design & Validation (Weeks)"
+    }
+  ],
+  "role": {
+    "title": "UX Strategist & Researcher",
+    "team": [
+      {
+        "count": 1,
+        "role": "UX Designer & Researcher (me)"
+      },
+      {
+        "count": 1,
+        "role": "AI Tools (Python, Pandas, NLP)"
+      }
+    ]
+  },
+  "impact": {
+    "title": "What changed",
+    "body": "The roadmap connected UX improvements directly to Chase's revenue model. Partner bookings increased because users could now verify reward value before committing. Drop-offs decreased because the checkout flow removed unnecessary decision points."
+  },
+  "background": {
+    "title": "The constraint",
+    "body": "Travel rewards differentiate Chase's premium cards. But low redemption rates meant users were not experiencing the value they paid for. The portal could not be redesigned wholesale. Changes had to be surgical and tied to measurable outcomes."
+  },
+  "problem": {
+    "title": "This is not a navigation problem. It is a verification problem.",
+    "body": "Users could not verify whether they were getting a good deal. Filtering was broken, but the real issue was trust. They abandoned bookings because they could not confirm reward value matched what they expected. Many booked elsewhere to avoid the uncertainty."
+  },
+  "personas": [
+    {
+      "label": "User",
+      "description": "Chase Sapphire Reserve cardholder, values premium travel perks and smooth mobile booking."
+    },
+    {
+      "label": "Consumer",
+      "description": "Leisure travelers booking for personal trips, often on mobile devices."
+    },
+    {
+      "label": "Company",
+      "description": "Chase, aiming to grow loyalty and partner revenue through the travel portal."
+    }
+  ],
+  "features": [
+    "Filtering that actually narrows results instead of overwhelming users",
+    "Real-time conversion so users see point value before committing",
+    "Checkout that removes unnecessary confirmation steps"
+  ],
+  "tags": [
+    "UX Strategy",
+    "Mobile App",
+    "Travel"
+  ],
+  "stats": [
+    {
+      "name": "Booking Completion",
+      "value": "+18%"
+    },
+    {
+      "name": "User Drop-off",
+      "value": "-27%"
+    },
+    {
+      "name": "App Store Sentiment",
+      "value": "+11 pts"
+    }
+  ]
+}
