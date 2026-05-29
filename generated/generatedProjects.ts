@@ -15,7 +15,7 @@ export const generatedProjects = [
     "header": {
       "duration": "3 months",
       "platform": "Mobile App (iOS + Android)",
-      "headline": "The portal was not a design problem. It was a trust problem.",
+      "headline": "LIVE GITHUB PIPELINE TEST",
       "subheadline": "Users abandoned bookings because they could not verify value or find what they needed. The work identified which friction points actually drove drop-off."
     },
     "metrics": [
