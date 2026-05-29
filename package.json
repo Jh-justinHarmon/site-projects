@@ -4,7 +4,8 @@
   "description": "GitHub-backed project content for Framer portfolio",
   "type": "module",
   "scripts": {
-    "build:projects": "node scripts/build-projects-json.mjs"
+    "build:projects": "node scripts/build-projects-json.mjs",
+    "generate:projects": "node scripts/generate-projects.mjs"
   },
   "repository": {
     "type": "git",
