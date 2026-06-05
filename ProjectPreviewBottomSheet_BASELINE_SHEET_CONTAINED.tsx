@@ -222,7 +222,7 @@ export default function ProjectPreviewBottomSheet_BASELINE_SHEET_CONTAINED() {
                                 position: "fixed",
                                 left: "50%",
                                 width: "100%",
-                                maxWidth: isMobile ? "100%" : "900px",
+                                maxWidth: isMobile ? "100%" : "1040px",
                                 bottom: 0,
                                 height: `${sheetHeight}vh`,
                                 backgroundColor: sheetBackgroundColor,
