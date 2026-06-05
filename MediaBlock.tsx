@@ -1,6 +1,4 @@
 // MediaBlock - Image with optional caption
-import { CSSProperties } from "react"
-
 interface MediaBlockProps {
     src: string
     alt: string
@@ -26,20 +24,20 @@ export default function MediaBlock({
 
     const isMobile = typeof window !== "undefined" && window.innerWidth < 768
 
-    const containerStyle: CSSProperties = {
+    const containerStyle = {
         maxWidth: getMaxWidth(),
         margin: "0 auto",
         width: "100%"
     }
 
-    const imageStyle: CSSProperties = {
+    const imageStyle = {
         width: "100%",
         height: "auto",
         display: "block",
         borderRadius: "8px"
     }
 
-    const captionStyle: CSSProperties = {
+    const captionStyle = {
         fontSize: isMobile ? "13px" : "14px",
         color: "#666666",
         marginTop: "12px",

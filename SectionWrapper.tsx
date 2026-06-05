@@ -1,6 +1,4 @@
 // SectionWrapper - Responsive container with consistent max-width and padding
-import { CSSProperties } from "react"
-
 interface SectionWrapperProps {
     children: React.ReactNode
     maxWidth?: "narrow" | "standard" | "wide" | "full"
@@ -36,7 +34,7 @@ export default function SectionWrapper({
     const paddingValues = getPadding()
     const isMobile = typeof window !== "undefined" && window.innerWidth < 768
 
-    const style: CSSProperties = {
+    const style = {
         maxWidth: getMaxWidth(),
         margin: "0 auto",
         padding: isMobile ? paddingValues.mobile : paddingValues.desktop,

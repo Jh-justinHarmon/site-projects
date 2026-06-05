@@ -1,6 +1,4 @@
 // ProjectHero - Hero section with title, subtitle, and metadata
-import { CSSProperties } from "react"
-
 interface ProjectHeroProps {
     title: string
     subtitle?: string
@@ -22,14 +20,14 @@ export default function ProjectHero({
 }: ProjectHeroProps) {
     const isMobile = typeof window !== "undefined" && window.innerWidth < 768
 
-    const containerStyle: CSSProperties = {
+    const containerStyle = {
         maxWidth: "900px",
         margin: "0 auto",
         padding: isMobile ? "48px 16px" : "80px 32px",
         width: "100%"
     }
 
-    const titleStyle: CSSProperties = {
+    const titleStyle = {
         fontSize: isMobile ? "32px" : "48px",
         fontWeight: 600,
         letterSpacing: "-0.03em",
@@ -38,7 +36,7 @@ export default function ProjectHero({
         color: "#000000"
     }
 
-    const subtitleStyle: CSSProperties = {
+    const subtitleStyle = {
         fontSize: isMobile ? "18px" : "24px",
         fontWeight: 500,
         letterSpacing: "-0.01em",
@@ -47,7 +45,7 @@ export default function ProjectHero({
         color: "#666666"
     }
 
-    const metadataContainerStyle: CSSProperties = {
+    const metadataContainerStyle = {
         display: "flex",
         flexDirection: isMobile ? "column" : "row",
         gap: isMobile ? "12px" : "24px",
@@ -55,20 +53,20 @@ export default function ProjectHero({
         color: "#666666"
     }
 
-    const metadataItemStyle: CSSProperties = {
+    const metadataItemStyle = {
         display: "flex",
         flexDirection: "column",
         gap: "4px"
     }
 
-    const metadataLabelStyle: CSSProperties = {
+    const metadataLabelStyle = {
         fontSize: "12px",
         textTransform: "uppercase",
         letterSpacing: "0.05em",
         color: "#999999"
     }
 
-    const metadataValueStyle: CSSProperties = {
+    const metadataValueStyle = {
         fontSize: "14px",
         fontWeight: 500,
         color: "#000000"
