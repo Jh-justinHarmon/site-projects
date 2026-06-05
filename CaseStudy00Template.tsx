@@ -1,7 +1,7 @@
 // CaseStudy00Template - Static proof of Case Study 00 with hardcoded content
-import SectionWrapper from "../primitives/SectionWrapper"
-import ProjectHero from "../primitives/ProjectHero"
-import MediaBlock from "../primitives/MediaBlock"
+import SectionWrapper from "./SectionWrapper"
+import ProjectHero from "./ProjectHero"
+import MediaBlock from "./MediaBlock"
 
 export default function CaseStudy00Template() {
     const bodyTextStyle = {
