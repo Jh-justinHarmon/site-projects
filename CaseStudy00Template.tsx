@@ -30,7 +30,7 @@ export default function CaseStudy00Template() {
     }
 
     return (
-        <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
+        <div style={{ width: "100%", minHeight: "100vh", background: "#FFFFFF" }}>
             <ProjectHero
                 title="Chase Travel Rewards UX Redesign"
                 subtitle="Redesigning Chase's Travel Portal for Loyalty & Conversion"
